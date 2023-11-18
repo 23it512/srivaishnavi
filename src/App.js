@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+//profile
 import './App.css';
+ import Footer from './profile/Fotter';
+ import Main from './profile/Main'; 
+ import NavBar from './profile/Navbar';
+  function App() {
+     return (
+      <div >
+        <NavBar></NavBar>
+        <br></br>
+        <Main></Main>
+          <br></br>
+        <Footer></Footer>
+     </div>
+    );
+     }
+   export default App;
+//Day2
+//    import './App.css';
+//    import Hello from "./Hello/Hello";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
-export default App;
+//   function App() {
+//      return (
+//       <div className="App">
+//        <Hello/>
+//      </div>
+//     );
+//    }
+//   export default App;
